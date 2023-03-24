@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 
@@ -6,7 +7,9 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home () {
   return (
     <>
-      <title>My First Page</title>
+      <Head>
+        <title>My First Page</title>
+      </Head>
 
       <main className={styles.main}>
         <h1>Template of nextjs 13</h1>
