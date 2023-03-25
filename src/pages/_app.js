@@ -1,17 +1,15 @@
 import { Inter } from 'next/font/google'
 import '@/styles/globals.css'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({
+  subsets: ['latin'],
+  weights: [400, 700]
+})
 
 export default function App ({ Component, pageProps }) {
   return (
-    <>
-      <style jsx global>{`
-        html {
-          font-family: ${inter.style.fontFamily};
-        }
-      `}</style>
+    <main className={inter.className}>
       <Component {...pageProps} />
-    </>
+    </main>
   )
 }
