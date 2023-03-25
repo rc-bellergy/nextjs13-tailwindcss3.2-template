@@ -2,8 +2,7 @@ import { Inter } from 'next/font/google'
 import '@/styles/globals.css'
 
 const inter = Inter({
-  subsets: ['latin'],
-  weights: [400, 700]
+  subsets: ['latin']
 })
 
 export default function App ({ Component, pageProps }) {
