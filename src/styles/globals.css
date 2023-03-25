@@ -1,3 +1,8 @@
+/* 
+  Global default font added in _app.js through the `next/font`
+  https://nextjs.org/docs/basic-features/font-optimization
+*/
+
 /*
 Embed tailwindcss
 https://tailwindcss.com/docs/preflight
