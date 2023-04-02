@@ -57,8 +57,7 @@ https://tailwindcss.com/docs/guides/nextjs
 #2 update /tailwind.config.js
 
     content: [
-        "./pages/**/*.{js,jsx}",
-        "./components/**/*.{js,jsx}"
+        "./src/**/*.{js,jsx,ts,tsx}"
     ]
 
 #3 update /postcss.config.js (not sure need it?)
