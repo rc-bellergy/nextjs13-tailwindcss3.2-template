@@ -71,7 +71,11 @@ https://tailwindcss.com/docs/guides/nextjs
     @tailwind utilities;
 
 ### Install styled-components
-We use styled-components in this template\
-Document: https://styled-components.com/docs
+Use styled-components: https://styled-components.com/docs
 
-    npm install --save styled-components
+    npm i -D styled-components
+
+### Install tailwind-styled-components
+Use tailwind-styled-components: https://www.npmjs.com/package/tailwind-styled-components
+
+    npm i -D tailwind-styled-components
