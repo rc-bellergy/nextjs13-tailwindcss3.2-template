@@ -1,3 +1,4 @@
 .main {
-  @apply container max-w-md mx-auto rounded-lg bg-slate-200 p-6 mt-8 h-72 flex flex-col justify-evenly items-center;
+  @apply container max-w-md mx-auto rounded-lg bg-slate-200 p-6 mt-8 h-72 text-center
+    flex flex-col justify-evenly items-center;
 }
