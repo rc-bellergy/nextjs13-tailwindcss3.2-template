@@ -16,7 +16,7 @@ export default function Index () {
 
       <Main>
         <img src='./next.svg' width='150' />
-        <h1>Template of nextjs 13</h1>
+        <h1>Template of nextjs 15</h1>
         <p>
           using
           <br />
